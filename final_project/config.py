@@ -1,0 +1,3 @@
+BITLY_TOKEN = '0497a052afd1995448ab524d8fc1e5b1f5f8816b'
+TG_TOKEN = '913744703:AAHyREa9dESClOHce4MMC33ivRhoVoB-2k4'
+BITLY_URL = 'https://api-ssl.bitly.com/v4/{}'

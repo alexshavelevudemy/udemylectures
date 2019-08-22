@@ -1,0 +1,8 @@
+{
+  "photo": "https://core.telegram.org/bots/api#sendphoto",
+  "audio": "https://core.telegram.org/bots/api#sendaudio",
+  "video": "https://core.telegram.org/bots/api#sendvideo",
+  "videonote": "https://core.telegram.org/bots/api#sendvideonote",
+  "chat": "https://core.telegram.org/bots/api#getChat",
+  "chataction": "https://core.telegram.org/bots/api#sendchataction"
+}
