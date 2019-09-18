@@ -17,11 +17,6 @@ def on_message(msg):
 
 
 @bot.message_handler(commands=['start'])
-@bot.message_handler(content_types=['new_chat_members'])
-@bot.message_handler(func=lambda msg: 'start' in msg.text or 'help' in msg.text)
-@bot.message_handler(commands=['delete'], func=lambda message: message.from_user.id in ADMINS)
-@bot.message_handler(func=lambda message: message.from_user.id in ADMINS)
-@bot.message_handler()
 def on_start(msg):
     if len(msg.text) > 6:
         print('\n\n\nreferral user from {}. need to save it\n\n\n'.format(msg.text[7:]))
